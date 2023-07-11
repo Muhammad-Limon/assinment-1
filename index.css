@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+    display: flex;
+    text-align: center;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    padding: 200px 900px 300px 240;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+}
+
+.flower-pic {
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+}
