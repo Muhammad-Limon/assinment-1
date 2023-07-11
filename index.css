@@ -103,13 +103,30 @@ body {
 }
 
 /*footer style start*/
-.footer-img{
+.footer-img {
     width: 200px;
     height: 200px;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-    
+
+/*footer style*/
+
+.contact {
+    background-image: url('/Flower-Asset/Rectangle\ 9.png');
+    margin: 50px;
+    padding-left: 90px;
+    width: 1300px;
+    height: 300px;
+}
+
+.contact-info {
+    text-align: center;
+    color: #272727;
+    font-size: 30px;
+}
+
