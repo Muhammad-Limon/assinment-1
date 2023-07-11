@@ -50,35 +50,34 @@ body {
 .flower-list-info {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 100px;
 }
 
 #flower-1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    height: 200px;
 }
 
 #flower-2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
+    height: 200px;
+    width: 200px;
 }
 
 #flower-3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    height: 200px;
+    width: 200px;
 }
 
 .flower-info-link {
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 190px;
     text-decoration: underline;
-}
-
-img {
-    width: 100px;
-    height: 150px;
-    padding: 50px 100px;
 }
 
 /*banner sale post*/
@@ -87,7 +86,8 @@ img {
     background: rgba(229, 84, 115, 0.05);
     justify-content: center;
 }
-.banner-info{
+
+.banner-info {
     padding: 100px 0px;
 }
 
@@ -96,3 +96,20 @@ img {
     height: 300px;
     flex-shrink: 0;
 }
+
+.social {
+    text-align: center;
+    font-weight: 400;
+}
+
+/*footer style start*/
+.footer-img{
+    width: 200px;
+    height: 200px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+    
