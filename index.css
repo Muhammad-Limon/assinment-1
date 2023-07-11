@@ -130,3 +130,15 @@ body {
     font-size: 30px;
 }
 
+/*last footer code*/
+.last-footer {
+    background-color: #E55473;
+    margin-top: 0px;
+}
+
+.finising {
+    text-align: center;
+    color: white;
+    font-family: Lato;
+    font-style: normal;
+}
